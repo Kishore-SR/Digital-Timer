@@ -18,7 +18,6 @@ function updateTime() {
     if (h > 12) {
         h = h - 12;
     }
-m=25; h=9
     hourEle.innerText = String(h).padStart(2, '0');
     minEle.innerText = String(m).padStart(2, '0');
     secEle.innerText = String(s).padStart(2, '0');
@@ -32,7 +31,6 @@ m=25; h=9
 // Function to show the greeting msg to user 
 function updateGreeting(now) {
     let hour = now.getHours();
-hour = 24;
     if (hour >= 5 && hour < 12) {
         greetingEle.innerText = "Good Morning 🌅";
         bodyEle.style.backgroundImage = "url('assets/morning.jpg')";
