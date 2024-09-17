@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(150, 235, 235);
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.single{
+    margin: 10px;
+}
+.single span{
+    width: 100px;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.single .common{
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: goldenrod;
+    height:10px;
+}
